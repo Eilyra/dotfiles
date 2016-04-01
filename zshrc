@@ -19,3 +19,6 @@ autoload -U colors
 colors
 
 export PROMPT="%F{yellow}%n%f%F{green}@%m%f:%F{cyan}%~%f%(!.#.$) "
+
+alias stream="livestreamer --default-stream best"
+alias keepass="kpcli --kdb=/Users/ellen/hubiC/KeePass.kdbx"
